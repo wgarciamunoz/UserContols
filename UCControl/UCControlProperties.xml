@@ -5,13 +5,61 @@
 			<Name>General</Name>
 			<Type>Main</Type>
 			<Children>
-
+				<Prop>
+					<Id>Badge</Id>
+					<Name>Badge</Name>
+					<Type>Integer</Type>
+					<Metadata/>
+				</Prop>
 				<Prop>
 					<Id>IdPropiedad</Id>
 					<Name>Propiedad</Name>
 					<Type>Text</Type>
 					<Default>200</Default>
 				</Prop>
+				<Prop>
+					<Id>Size</Id>
+					<Name>Size</Name>
+					<Type>Combo</Type>
+					<Metadata/>
+					<Values>
+						<Value id="btn-xs" desc="Extra-Small"/>
+						<Value id="btn-sm" desc="Small"/>
+						<Value id="btn-md" desc="Medium"/>
+						<Value id="btn-lg" desc="Large"/>
+					</Values>
+				</Prop>
+				<Prop>
+					<Id>Style</Id>
+					<Name>Style</Name>
+					<Type>Combo</Type>
+					<Metadata/>
+					<Values>
+						<Value id="btn-default" desc="Default"/>
+						<Value id="btn-primary" desc="Primary"/>
+						<Value id="btn-success" desc="Success"/>
+						<Value id="btn-info" desc="Info"/>
+						<Value id="btn-warning" desc="Warning"/>
+						<Value id="btn-danger" desc="Danger"/>
+						<Value id="btn-link" desc="Link"/>
+					</Values>
+				</Prop>
+				<Group>
+					<Name>DataBinding</Name>
+					<Children>
+						<Prop>
+							<Id>DropDownData</Id>
+							<Name>DropDownData</Name>
+							<Type>Custom</Type>
+							<CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+							<Metadata>
+								<Value name="FlagSetValueMethod">SetDropDownData</Value>
+								<Value name="FlagGetValueMethod">GetDropDownData</Value>
+								<Value name="FlagDataTypeFilter">BootstrapDropDownData</Value>
+							</Metadata>
+						</Prop>
+					</Children>
+				</Group>
 			</Children>
 		</Group>
 	</Object>
