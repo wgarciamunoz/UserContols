@@ -58,6 +58,17 @@
 								<Value name="FlagDataTypeFilter">BootstrapDropDownData</Value>
 							</Metadata>
 						</Prop>
+						<Prop>
+							<Id>FormData</Id>
+							<Name>FormData</Name>
+							<Type>Custom</Type>
+							<CustomType>Artech.GeneXus.Common.CustomTypes.ControlAttVarReference,Artech.GeneXus.Common</CustomType>
+							<Metadata>
+								<Value name="FlagSetValueMethod">SetFormData</Value>
+								<Value name="FlagGetValueMethod">GetFormData</Value>
+								<Value name="FlagDataTypeFilter">Atributo</Value>
+							</Metadata>
+						</Prop>
 					</Children>
 				</Group>
 			</Children>
