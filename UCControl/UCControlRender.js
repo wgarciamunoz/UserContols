@@ -1,8 +1,19 @@
 function UCControl($)
 {
+
+	this.SetDropDownData = function(data)
+	{
+		this.DropDownData = data;
+	}
+
+	this.GetDropDownData = function()
+	{
+		return this.DropDownData;
+	}
+
 	this.show = function()
 	{
-		console.log(this.Size);
+		console.log(this.DropDownData.id);
 		var html = '<span>';
 		html    +=  this.Propiedad;
 		html    += '</span>';
