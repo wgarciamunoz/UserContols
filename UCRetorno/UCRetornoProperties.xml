@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Object id="UCRetorno">
+		<Group>
+			<Name>General</Name>
+			<Type>Main</Type>
+			<Children>
+				<Prop>
+				<Id>retorno</Id>
+				<Name>retorno</Name>
+				<Type>Text</Type>
+				<Metadata />
+				</Prop>
+
+				<Prop>
+					<Id>Atributo</Id>
+					<Name>Atributo</Name>
+					<Type>Custom</Type>
+					<CustomType>Artech.GeneXus.Common.CustomTypes.ControlAttVarReference, Artech.GeneXus.Common</CustomType>
+					<Metadata>
+					<Value name="FlagSetValueMethod">SetAtributo</Value>
+					<Value name="FlagGetValueMethod">GetAtributo</Value>
+					<Value name="FlagDataTypeFilter">ClienteSDT</Value>
+					</Metadata>
+				</Prop>
+
+				<Prop>
+				  <Id>ButtonClicked</Id>
+				  <Name>ButtonClicked</Name>
+				  <Type>Custom</Type>
+				  <CustomType>Artech.Genexus.Common.CustomTypes.ControlAttVarReference, Artech.Genexus.Common</CustomType>
+				  <Metadata>
+				 <Value name="FlagSetValueMethod">SetButtonClicked</Value>
+				 <Value name="FlagGetValueMethod">GetButtonClicked</Value>
+				 <!--<Value name="FlagScope">Runtime</Value>-->
+				 <Value name="FlagDataTypeFilter">Numeric</Value>
+				  </Metadata>
+				</Prop>
+
+			</Children>
+		</Group>
+	</Object>
+</Content>

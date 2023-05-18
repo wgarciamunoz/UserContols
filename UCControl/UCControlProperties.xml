@@ -69,6 +69,17 @@
 								<Value name="FlagDataTypeFilter">Atributo</Value>
 							</Metadata>
 						</Prop>
+						<Prop>
+						<Id>IdAtributo</Id>
+						<Name>Atributo</Name>
+						<Type>Custom</Type>
+						<CustomType>Artech.GeneXus.Common.CustomTypes.ControlAttVarReference,Artech.GeneXus.Common</CustomType>
+						<Metadata>
+							<Value name="FlagSetValueMethod">SetAtributo</Value>
+							<Value name="FlagGetValueMethod">GetAtributo</Value>
+							<Value name="FlagDataTypeFilter">Character</Value>
+						</Metadata>
+						</Prop>
 					</Children>
 				</Group>
 			</Children>
