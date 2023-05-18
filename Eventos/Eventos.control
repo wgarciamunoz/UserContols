@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Id>4db9fffd-eaa6-457d-9f86-526807c72718</Id>
-	<Name>UCControl</Name>
-	<Description>Propiedades</Description>
-	<ObjClass>UCControl</ObjClass>
-	<Version>1.0.2a</Version>
-	<RuntimeRender>UCControlRender.js</RuntimeRender>
-	<PropertiesDefinition>UCControlProperties.xml</PropertiesDefinition>
-	<DesignRender>UCControlRender.xsl</DesignRender>
+	<Id>86df1b1e-be28-4f5d-bdfa-66393d3ffa52</Id>
+	<Name>Eventos</Name>
+	<Description>Eventos</Description>
+	<ObjClass>Eventos</ObjClass>
+	<Version>1.00.00</Version>
+	<RuntimeRender>EventosRender.js</RuntimeRender>
+	<PropertiesDefinition>EventosProperties.xml</PropertiesDefinition>
+	<DesignRender>EventosRender.xsl</DesignRender>
 	<ShowMethod>show</ShowMethod>
 	<ResizeSupported>false</ResizeSupported>
 	<DataSourceAllowed>None</DataSourceAllowed>
@@ -28,7 +28,7 @@
 	<BB_ReferencedFiles />
 	<Constructor>
 		<Parameters />
-		<Name>UCControl</Name>
+		<Name>Eventos</Name>
 	</Constructor>
 	<ControlType></ControlType>
 	<Categories>
